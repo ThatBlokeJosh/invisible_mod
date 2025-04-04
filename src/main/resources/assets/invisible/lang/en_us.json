@@ -1,4 +1,6 @@
 {
   "item.invisible.invisible_music_disc": "Music Disc",
-  "item.invisible.invisible_music_disc.desc": "Duran Duran - INVISIBLE"
+  "item.invisible.invisible_music_disc.desc": "Duran Duran - INVISIBLE",
+  "advancement.invisible.obtain_invisible": "Phantom Pain",
+  "advancement.invisible.obtain_invisible.desc": "I'm still in a dream, Snake, oh wait, wrong song"
 }

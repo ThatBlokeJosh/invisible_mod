@@ -1,6 +1,7 @@
 package boo.remington.mixin;
 
 import boo.remington.item.ModItems;
+import net.minecraft.advancement.Advancement;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
