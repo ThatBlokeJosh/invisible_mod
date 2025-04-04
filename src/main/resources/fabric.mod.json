@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "invisible",
+	"version": "${version}",
+	"name": "invisible",
+	"description": "A mod that adds a little easter egg to the game",
+	"authors": [
+		"ThatBlokeJosh"
+	],
+	"contact": {
+		"homepage": "https://github.com/ThatBlokeJosh",
+		"sources": "https://github.com/ThatBlokeJosh/invisible_mod"
+	},
+	"license": "Don't Be a Jerk",
+	"icon": "assets/invisible/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"boo.remington.Invisible"
+		],
+		"fabric-datagen": [
+			"boo.remington.InvisibleDataGenerator"
+		],
+		"client": [
+			"boo.remington.InvisibleClient"
+		]
+	},
+	"mixins": [
+		"invisible.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

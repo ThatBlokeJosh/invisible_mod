@@ -1,0 +1,10 @@
+{
+  "invisible": {
+    "sounds": [
+      {
+        "name": "invisible:invisible",
+        "stream": true
+      }
+    ]
+  }
+}
