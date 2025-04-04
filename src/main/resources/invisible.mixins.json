@@ -1,11 +1,11 @@
 {
-	"required": true,
-	"package": "boo.remington.mixin",
-	"compatibilityLevel": "JAVA_21",
-	"mixins": [
-		"ExampleMixin"
-	],
-	"injectors": {
-		"defaultRequire": 1
+  "required": true,
+  "package": "boo.remington.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CreeperDeathMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
 	}
 }
