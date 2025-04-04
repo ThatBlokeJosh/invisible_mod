@@ -31,4 +31,4 @@ jobs:
       - name: Publish (GitHub)
         uses: Kir-Antipov/mc-publish@v3.3                                 
         with:
-          github-token: "${{GITHUB_TOKEN}}"
+          github-token: "${{secrets.TOKEN}}"
